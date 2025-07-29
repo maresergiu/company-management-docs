@@ -1,7 +1,7 @@
 title: Staff Scheduling System Documentation
 description: Comprehensive documentation for our multi-tenant staff scheduling platform
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/company-management-docs"
+url: "https://maresergiu.github.io"
 
 # Build settings
 markdown: kramdown
