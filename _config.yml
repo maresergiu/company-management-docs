@@ -5,7 +5,7 @@ url: "https://maresergiu.github.io"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
@@ -13,16 +13,9 @@ plugins:
 author: Your Company
 email: support@yourcompany.com
 
-# Navigation
-header_pages:
-  - docs/login.md
-  - docs/full-setup-example.md
-  - docs/roles-and-permissions.md
-  - docs/users.md
-  - docs/user-flows.md
-  - docs/locations.md
-  - docs/schedule-templates.md
-  - docs/tasks.md
+# Minimal theme specific settings
+logo: # Add logo path if you have one
+show_downloads: false
 
 # Exclude from processing
 exclude:

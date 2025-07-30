@@ -1,3 +1,9 @@
+---
+layout: default
+title: Schedule Templates
+description: Creating and using reusable schedule templates
+---
+
 # Schedule Templates
 
 ## Overview

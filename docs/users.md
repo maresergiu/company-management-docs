@@ -1,3 +1,9 @@
+---
+layout: default
+title: User Types
+description: Common user roles and their responsibilities
+---
+
 # User Types and Their Roles
 
 ## Overview

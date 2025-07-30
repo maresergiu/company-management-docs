@@ -1,3 +1,9 @@
+---
+layout: default
+title: User Flows
+description: Typical workflows for different user types
+---
+
 # User Flows
 
 This document explains how different types of users interact with the system.

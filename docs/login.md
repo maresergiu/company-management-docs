@@ -1,3 +1,9 @@
+---
+layout: default
+title: Login System Documentation
+description: Secure access to the Company Management System with 2FA support
+---
+
 # Login System Documentation
 
 ## Overview

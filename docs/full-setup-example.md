@@ -1,3 +1,9 @@
+---
+layout: default
+title: Complete Setup Guide
+description: Step-by-step walkthrough from registration to full configuration
+---
+
 # Full Setup Example: Coffee Shop Chain
 
 This example walks through setting up a coffee shop chain "Coffee Express" with multiple locations.

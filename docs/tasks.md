@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tasks
+description: Managing holiday requests and other tasks
+---
+
 # Tasks System
 
 ## Overview

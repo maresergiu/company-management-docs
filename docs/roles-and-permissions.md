@@ -1,3 +1,9 @@
+---
+layout: default
+title: Roles and Permissions
+description: Understanding the permission-based access control system
+---
+
 # Roles and Permissions System
 
 ## Overview

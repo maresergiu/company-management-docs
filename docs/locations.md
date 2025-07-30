@@ -1,3 +1,9 @@
+---
+layout: default
+title: Locations
+description: Managing multiple business locations
+---
+
 # Locations in the System
 
 ## Overview
