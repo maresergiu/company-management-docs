@@ -42,17 +42,40 @@ This document explains how different types of users interact with the system.
 ### Key Actions
 
 - Manage company users
-- Create and manage locations
+- Create and manage locations (Step 1: Location Creation)
 - Create custom roles
 - Assign permissions
 - View company settings
 
+**Note**: Company administrators typically handle the initial location creation, while location managers handle the configuration and shift assignments.
+
 ### User Management
 
-1. Create new users
-2. Assign roles to users
-3. Manage user permissions
-4. Handle user access
+1. **Create new users** (Step 1: Basic system setup)
+2. **Configure user profiles** (Step 2: Detailed employment setup)
+3. Assign roles to users
+4. Manage user permissions
+5. Handle user access
+
+**Note**: Company administrators typically handle user creation, while HR or users themselves handle detailed profile configuration.
+
+## Location Manager Flow
+
+### Initial Access
+
+1. Login with location manager credentials
+2. Lands on location dashboard
+3. Access limited to assigned locations
+
+### Key Actions
+
+- Configure location settings (Step 2: Location Configuration)
+- Set up off days and holidays
+- Create shift calendars
+- Assign staff to shifts
+- Monitor location schedules
+
+**Note**: Location managers handle the operational configuration of locations after they've been created by administrators.
 
 ## Regular User Flow
 
@@ -67,6 +90,9 @@ This document explains how different types of users interact with the system.
 1. View personal schedule
 2. See assigned locations
 3. Submit holiday requests
+4. Receive notifications for new shift assignments
+
+**Note**: Location managers can create shift assignments via Location Configuration. See [Shift Assignment Guide](shift-assignment-guide.md) for details.
 
 ### Holiday Requests
 
