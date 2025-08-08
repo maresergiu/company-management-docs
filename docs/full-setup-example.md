@@ -67,9 +67,11 @@ Permissions:
 - users.holiday.request
 ```
 
-## 5. Adding Users
+## 5. Creating Users
 
 Navigate to: User Management > Create User
+
+**This step establishes users as system members with basic access and permissions.**
 
 Add Location Manager:
 
@@ -87,17 +89,26 @@ Email: mike.w@coffeeexpress.com
 Role: Staff Member
 ```
 
-## 6. User Configuration
+**This creates the basic user accounts with essential access and role information.**
+
+## 6. Configuring Users
 
 Navigate to: Users > Sarah Johnson > Configuration
+
+**This step sets up the detailed employment profiles for the users.**
 
 Set manager details:
 
 ```
-Contact Number: +1 234-567-8901
-Emergency Contact: +1 234-567-8902
-Availability: Full-time
+Phone: +1 234-567-8901
+Address: "123 Main Street, Downtown"
+Date of Birth: "1990-05-15"
+Nationality: "Canadian"
+Emergency Contact: { name: "John Johnson", phone: "+1 234-567-8902", relationship: "Spouse" }
+
 ```
+
+**This configuration defines the complete employment profile and personal details.**
 
 ## 7. Creating Schedule Template
 
@@ -121,7 +132,7 @@ Shifts:
    - Staff: 2
 ```
 
-## 8. Setting Up Location
+## 8. Creating the Location
 
 Navigate to: Location Management > Create Location
 
@@ -147,16 +158,28 @@ Assign schedule templates:
 Default Template: Weekday Standard
 ```
 
-## 9. Location Configuration
+**This creates the basic location with essential business information.**
+
+## 9. Configuring the Location
 
 Navigate to: Locations > Coffee Express Downtown > Configuration
 
-### Operating Hours
+**This step sets up the operational scheduling rules for the location.**
+
+### Off Days Configuration
 
 ```
-Monday-Friday: 07:00 - 22:00
-Saturday: 08:00 - 23:00
-Sunday: 09:00 - 20:00
+Weekly Off Days: Sunday (location closed)
+Specific Off Dates: Dec 25, Jan 1 (holidays)
+```
+
+### Calendar Setup
+
+Create shift calendars based on the Weekday Standard template:
+
+```
+Morning Shift Calendar: 07:00 - 15:00
+Evening Shift Calendar: 15:00 - 22:00
 ```
 
 ### Staff Requirements
@@ -168,11 +191,26 @@ Weekend Morning: 4 staff
 Weekend Evening: 3 staff
 ```
 
+**This configuration defines how the location operates for scheduling purposes.**
+
 ## Next Steps
 
 After this initial setup:
 
 1. Location manager can log in
-2. Create schedules using template
-3. Staff can view their schedules
-4. Holiday requests can be managed
+2. Create actual shift assignments using templates
+3. Use Location Configuration → Shift Assignments for:
+   - Individual shift assignments
+   - Range assignments for recurring patterns
+4. Staff can view their assigned schedules
+5. Holiday requests can be managed with automatic availability checking
+
+### Creating Your First Shift Assignment
+
+1. Go to Location Management → Coffee Express Downtown → Configuration
+2. Click Shift Assignments tab
+3. Use Individual Assignment to assign Mike Wilson to tomorrow's Morning Shift
+4. System validates availability and creates assignment
+5. Mike receives notification of new assignment
+
+**For complete assignment process, see [Shift Assignment Guide](shift-assignment-guide.md)**

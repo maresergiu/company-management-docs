@@ -116,11 +116,14 @@ Add two shifts:
 
 ### Step 5: Assign Staff
 
-After creating the schedule:
+After creating the schedule template, you need to create actual shift assignments:
 
-1. Click on each shift
-2. Select available staff members
-3. Save assignments
+1. Go to Location Configuration → Shift Assignments
+2. Use Individual Assignment for specific dates
+3. Use Range Assignment for recurring patterns
+4. System validates availability and prevents conflicts
+
+**For detailed assignment process, see [Shift Assignment Guide](shift-assignment-guide.md)**
 
 ## Tips for Admins
 

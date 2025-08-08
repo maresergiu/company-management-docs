@@ -26,7 +26,7 @@ Below you'll find links to all available documentation pages:
 Learn about user roles, permissions, and how different users interact with the system.
 
 - **[Roles and Permissions](docs/roles-and-permissions.html)** - Understanding the permission-based access control system
-- **[User Types](docs/users.html)** - Common user roles and their responsibilities
+- **[User Types](docs/users.html)** - **UPDATED!** User roles, responsibilities, and creation vs configuration process
 - **[User Flows](docs/user-flows.html)** - Typical workflows for different user types
 
 ### 🏢 System Features
@@ -35,6 +35,7 @@ Discover the core features and how to use them effectively.
 
 - **[Locations](docs/locations.html)** - Managing multiple business locations
 - **[Schedule Templates](docs/schedule-templates.html)** - Creating and using reusable schedule templates
+- **[Shift Assignment Guide](docs/shift-assignment-guide.html)** - **NEW!** Complete guide to assigning staff to shifts
 - **[Tasks](docs/tasks.html)** - Managing holiday requests and other tasks
 
 ---
@@ -59,16 +60,17 @@ Discover the core features and how to use them effectively.
 
 **Complete list of available documentation:**
 
-| Page                                                     | Description                          |
-| -------------------------------------------------------- | ------------------------------------ |
-| [Login System](docs/login.html)                          | Authentication and system access     |
-| [Complete Setup Guide](docs/full-setup-example.html)     | End-to-end configuration walkthrough |
-| [Roles and Permissions](docs/roles-and-permissions.html) | Permission-based access control      |
-| [User Types](docs/users.html)                            | User roles and responsibilities      |
-| [User Flows](docs/user-flows.html)                       | Typical user workflows               |
-| [Locations](docs/locations.html)                         | Multi-location management            |
-| [Schedule Templates](docs/schedule-templates.html)       | Reusable scheduling patterns         |
-| [Tasks](docs/tasks.html)                                 | Holiday requests and task management |
+| Page                                                       | Description                          |
+| ---------------------------------------------------------- | ------------------------------------ |
+| [Login System](docs/login.html)                            | Authentication and system access     |
+| [Complete Setup Guide](docs/full-setup-example.html)       | End-to-end configuration walkthrough |
+| [Roles and Permissions](docs/roles-and-permissions.html)   | Permission-based access control      |
+| [User Types](docs/users.html)                              | User roles and responsibilities      |
+| [User Flows](docs/user-flows.html)                         | Typical user workflows               |
+| [Locations](docs/locations.html)                           | Multi-location management            |
+| [Schedule Templates](docs/schedule-templates.html)         | Reusable scheduling patterns         |
+| [Shift Assignment Guide](docs/shift-assignment-guide.html) | **NEW!** Staff assignment to shifts  |
+| [Tasks](docs/tasks.html)                                   | Holiday requests and task management |
 
 ---
 
