@@ -238,13 +238,19 @@ The system performs these checks before creating assignments:
 
    - System checks user availability in real-time
    - Users on approved holidays cannot be assigned
-   - Existing assignments during holidays are flagged
+   - Existing assignments during holidays are automatically prevented
 
-3. **Conflict Resolution**
-   - If user gets holiday approved after assignment
-   - Assignment status changes to "Conflict"
-   - Manager notified to reassign shift
-   - User's holiday remains approved
+3. **When Holiday is Approved**
+
+   - **Existing shifts are automatically deleted** from the user's schedule for the holiday period
+   - **Holiday becomes visible in the calendar** as a blocked period
+   - **User is marked unavailable** for the entire holiday duration
+   - **No manual intervention required** - system handles cleanup automatically
+
+4. **Calendar Integration**
+   - **Approved holidays display** as visual blocks on the schedule calendar
+   - **Shift assignments are prevented** during holiday periods
+   - **User availability is updated** in real-time across all scheduling interfaces
 
 ### Best Practices
 
