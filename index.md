@@ -38,6 +38,12 @@ Discover the core features and how to use them effectively.
 - **[Shift Assignment Guide](docs/shift-assignment-guide.html)** - **NEW!** Complete guide to assigning staff to shifts
 - **[Tasks](docs/tasks.html)** - Managing holiday requests and other tasks
 
+### 📊 Reports & Analytics
+
+Generate comprehensive reports and analyze your data.
+
+- **[Worked Hours Report](docs/reports.html)** - Generate and export worked hours reports for employees and locations
+
 ---
 
 ## 📋 System Overview
@@ -69,8 +75,9 @@ Discover the core features and how to use them effectively.
 | [User Flows](docs/user-flows.html)                         | Typical user workflows               |
 | [Locations](docs/locations.html)                           | Multi-location management            |
 | [Schedule Templates](docs/schedule-templates.html)         | Reusable scheduling patterns         |
-| [Shift Assignment Guide](docs/shift-assignment-guide.html) | **NEW!** Staff assignment to shifts  |
+| [Shift Assignment Guide](docs/shift-assignment-guide.html) | Staff assignment to shifts           |
 | [Tasks](docs/tasks.html)                                   | Holiday requests and task management |
+| [Worked Hours Report](docs/reports.html)                   | Generate worked hours reports        |
 
 ---
 
