@@ -109,6 +109,17 @@ This document explains how different types of users interact with the system.
 2. See location schedules
 3. Access based on permissions
 
+### Reports (if permitted)
+
+1. Access Reports section from main navigation
+2. Select Worked Hours Report
+3. Configure report parameters:
+   - Choose grouping (by employee or location)
+   - Select target employee or location
+   - Set date range
+4. Generate preview
+5. Export as PDF or Excel
+
 ## Common Features for All Users
 
 ### Profile Management

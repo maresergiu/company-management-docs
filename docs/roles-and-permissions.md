@@ -98,6 +98,10 @@ Our system includes the following permission categories:
 - `tasks.approve` - Approve tasks
 - `tasks.assign` - Assign tasks to users
 
+### Reports
+
+- `reports.read` - View and generate reports
+
 ### Role Management
 
 - `roles.create` - Create new roles
