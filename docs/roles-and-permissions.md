@@ -100,7 +100,19 @@ Our system includes the following permission categories:
 
 ### Reports
 
-- `reports.read` - View and generate reports
+- `reports.read` - Access Reports Page
+- `reports.worked-hours` - Generate Worked Hours Reports
+- `reports.view_dynamic_data` - View Report Template Analytics
+
+### Report Templates
+
+- `templates.create` - Create new report templates
+- `templates.read` - View report template list
+- `templates.update` - Modify existing report templates
+- `templates.delete` - Remove report templates
+- `templates.assign` - Assign report templates to users
+- `templates.analytics.view` - View report template analytics dashboards
+- `templates.analytics.export` - Export report template data (PDF, Excel, JSON)
 
 ### Role Management
 
